@@ -1,4 +1,4 @@
-with open('name.txt', 'w+') as file:  # Open the file in write and read mode
+with open('name.txt', 'w+') as file:  # With helps us to manage the file automatically ('w+' allows you to write to the file and then read from it without closing and reopening the file)
     file.write('Good morning')
     file.write('\nMy name is John')
     file.seek(0)  # Move the file pointer back to the beginning of the file
