@@ -1,4 +1,5 @@
 import os
+
 cwd = os.getcwd() #get current working directory
 print(cwd)
 
